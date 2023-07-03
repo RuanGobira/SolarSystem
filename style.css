@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+html{
+    font-family: 'Righteous', cursive;
+    background: rgb(0, 0, 0);
+    color: white;
+    
+}
+
+#top{
+    margin: 50px  0px 100px 0px;
+    text-align: center;
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+
+}
+
+h1{
+    color: transparent;
+    background-image: linear-gradient(to Right, rgb(224, 224, 26), red);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-size: 2em;
+    font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+}
+  
+ h1::after{
+    margin-left: 420px;
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-image: linear-gradient(to Right, yellow, red);
+    display: block;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+  
+ h1:hover::after{
+    width: 420px;
+}
+
+.fundopreto{
+    border-style: none;
+    display: flexbox;
+    background: rgb(0, 0, 0);
+}
+
+#img1,#img2,#img3,#img4,#img5,#img6,#img7,#img8,#img9{
+    margin-bottom: 45px;
+    transition: all 0.9s ease;
+    object-fit: contain;
+    aspect-ratio: 4/3;
+    width: 300px;
+    opacity: 0.8;
+}
+
+p{
+    margin-top: 70px;
+}
+
+h2{
+    left: 30%;
+    position: relative;
+    display: flexbox;
+}
+
+#area1{
+    transition: all 0.5s ease-in-out ;
+    display: flex;
+    color: rgb(141, 136, 91);
+    background-color: black;
+    
+}
+
+#img1:hover{
+    animation-iteration-count: infinite;
+    animation-name: flutuar;
+    animation-duration: 4.5s;
+    animation-timing-function: ease-in-out;
+    filter: drop-shadow(-10px 10px 100px #dd840e);
+    opacity: 1.0;
+    width: 500px;
+}
+
+#area1:hover{
+    font-size: larger;
+    display: flex;
+    color: rgb(247, 185, 13);
+}
+
+#area2{
+    transition: all 0.5s ease ;
+    display: flex;
+    color: rgb(82, 82, 82);
+    background-color: black;
+    
+}
+
+#p2{
+    margin-left: -30px;
+}
+
+#img2:hover{
+    animation-iteration-count: infinite;
+    animation-name: flutuar;
+    animation-duration: 4.5s;
+    animation-timing-function: ease-in-out;
+    filter: saturate(150%) drop-shadow(10px 10px 50px rgb(192, 189, 182));
+    opacity: 1.0;
+    width: 400px;
+}
+
+#area2:hover{
+    font-size: larger;
+    display: flex;
+    color: rgb(226, 226, 226);
+}
+
+#area3{
+    transition: all 0.5s ease ;
+    display: flex;
+    color: rgb(131, 97, 46);
+    background-color: black;
+    
+}
+
+#img3:hover{
+    animation-iteration-count: infinite;
+    animation-name: flutuar;
+    animation-duration: 4.5s;
+    animation-timing-function: ease-in-out;
+    filter: saturate(150%) drop-shadow(10px 10px 50px rgb(255, 218, 133));
+    opacity: 1.0;
+    width: 400px;
+}
+
+#area3:hover{
+    font-size: larger;
+    display: flex;
+    color: rgb(218, 127, 8);
+}
+
+#area4{
+    transition: all 0.5s ease ;
+    display: flex;
+    color: rgb(93, 141, 91);
+    background-color: black;
+    
+}
+
+#img4:hover{
+    animation-iteration-count: infinite;
+    animation-name: flutuar;
+    animation-duration: 4.5s;
+    animation-timing-function: ease-in-out;
+    filter: saturate(150%) drop-shadow(10px 10px 50px rgb(10, 101, 104));
+    opacity: 1.0;
+    width: 400px;
+}
+
+#area4:hover{
+    font-size: larger;
+    display: flex;
+    color: rgb(20, 223, 81);
+}
+
+#area5{
+    transition: all 0.5s ease ;
+    display: flex;
+    color: rgb(129, 43, 43);
+    background-color: black;
+    
+}
+
+#img5:hover{
+    animation-iteration-count: infinite;
+    animation-name: flutuar;
+    animation-duration: 4.5s;
+    animation-timing-function: ease-in-out;
+    filter: saturate(150%) drop-shadow(10px 10px 50px rgb(231, 61, 61));
+    opacity: 1.0;
+    width: 400px;
+}
+
+#area5:hover{
+    font-size: larger;
+    display: flex;
+    color: rgb(248, 49, 23);
+}
+
+#area6{
+    transition: all 0.5s ease ;
+    display: flex;
+    color: rgb(141, 91, 91);
+    background-color: black;
+    
+}
+
+#img6:hover{
+    animation-iteration-count: infinite;
+    animation-name: flutuar;
+    animation-duration: 4.5s;
+    animation-timing-function: ease-in-out;
+    filter: saturate(150%) drop-shadow(10px 10px 50px #b87333);
+    opacity: 1.0;
+    width: 450px;
+}
+
+#area6:hover{
+    font-size: larger;
+    display: flex;
+    color: rgb(248, 173, 129);
+}
+
+#area7{
+    transition: all 0.5s ease ;
+    display: flex;
+    color: rgb(133, 103, 47);
+    background-color: black;
+    
+}
+
+#img7:hover{
+    animation-iteration-count: infinite;
+    animation-name: flutuar;
+    animation-duration: 4.5s;
+    animation-timing-function: ease-in-out;
+    filter: saturate(150%) drop-shadow(10px 10px 50px rgb(231, 208, 154));
+    opacity: 1.0;
+    width: 400px;
+}
+
+#area7:hover{ 
+    font-size: larger;
+    display: flex;
+    color: rgb(211, 166, 82);
+}
+
+#area8{
+    transition: all 0.5s ease ;
+    display: flex;
+    color: rgb(91, 135, 141);
+    background-color: black;
+    
+}
+
+#img8:hover{
+    animation-iteration-count: infinite;
+    animation-name: flutuar;
+    animation-duration: 4.5s;
+    animation-timing-function: ease-in-out;
+    filter: saturate(150%) drop-shadow(10px 10px 50px rgb(113, 212, 212));
+    opacity: 1.0;
+    width: 400px;
+}
+
+#area8:hover{
+    font-size: larger;
+    display: flex;
+    color: rgb(24, 164, 189);
+}
+
+#area9{
+    transition: all 0.5s ease ;
+    display: flex;
+    color: rgb(94, 91, 141);
+    background-color: black;
+    
+}
+
+#img9:hover{
+    animation-iteration-count: infinite;
+    animation-name: flutuar;
+    animation-duration: 4.5s;
+    animation-timing-function: ease-in-out;
+    filter: saturate(150%) drop-shadow(10px 10px 50px rgb(93, 81, 255));
+    opacity: 1.0;
+    width: 400px;
+}
+
+#area9:hover{
+    font-size: larger;
+    display: flex;
+    color: rgb(82, 101, 211);
+}
+
+@keyframes flutuar{
+    0% {
+        transform: translatey(0px);
+    }
+
+    50%{
+        transform: translateY(-25px);
+    }
+
+    100%{
+        transform: translateY(0);
+    }
+   
+}
+
+::-webkit-scrollbar{
+    border-radius: 1rem;
+    background-color: rgb(0, 0, 0);
+    width: 6px;
+}
+
+::-webkit-scrollbar-thumb{
+    border-radius: 1rem;
+    background-color: white;
+}
